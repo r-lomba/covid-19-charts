@@ -1,7 +1,7 @@
 # covid-19-charts
 Jupyter Notebook and tools to generate charts and stats related to COVID-19 spread
 
-This notebook generates a variety of charts starting from the latest daily data regarding COVID-19, made publicly available by Johns Hopkins University (see URL reference below).
+This notebook generates a variety of charts starting from the latest daily data regarding COVID-19, made publicly available by Johns Hopkins CSSE (see URL reference below).
 
 Dataframes are created in both a cumulative and an incremental fashion starting from the original data. This allows to plot them revealing a few interesting insights.
 
@@ -9,13 +9,13 @@ A plotting function capable of presenting data in complex ways is the core of th
 
 You can:
 
-- Present data from 6 aggregated sources: Cumulative Confirmes cases, Daily Confirmed (new cases), Cumulative Recoveries, Daily Recoveries (new cases), Cumulative Fatalities, Daily Fatalities (new cases)
+- Present data from 6 aggregated sources: Cumulative Confirmed cases, Daily Confirmed (new cases), Cumulative Recoveries, Daily Recoveries (new cases), Cumulative Fatalities, Daily Fatalities (new cases)
 - Draw multiple line charts on the same plot
-- Draw multiple bar chart on the same plot
+- Draw multiple bar charts on the same plot
 - Specify linear or logarithmic scale for the Y axis
-- Select single or multiple Coutries as the source of data for a particular plot
+- Select single or multiple Countries as the source of data for a particular plot
 - Specify if you want to keep the Country data separated (e.g. for charts comparison) or aggregated (e.g. to check global trends)
-- Generate Chart Images in PNG format inside a "charts" subdirectory, together with a simple "Index.html" page to directly show the images on a browser
+- Generate Chart Images in PNG format inside a "charts" subdirectory, together with a simple "index.html" page to directly show the images on a browser
 
 ### Contacts:
 You can contact me here:
