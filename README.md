@@ -9,7 +9,7 @@ A plotting function capable of presenting data in complex ways is the core of th
 
 You can:
 
-- Present data from 6 aggregated sources: Cumulative Confirmed cases, Daily Confirmed (new cases), Cumulative Recoveries, Daily Recoveries (new cases), Cumulative Fatalities, Daily Fatalities (new cases)
+- Present data from 8 aggregated sources: Cumulative Active cases, Daily Active (new cases), Cumulative Confirmes cases, Daily Confirmed (new cases), Cumulative Recoveries, Daily Recoveries (new cases), Cumulative Fatalities, Daily Fatalities (new cases)
 - Draw multiple line charts on the same plot
 - Draw multiple bar charts on the same plot
 - Specify linear or logarithmic scale for the Y axis
