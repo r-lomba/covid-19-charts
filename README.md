@@ -383,7 +383,7 @@ And get the following result:
 <a href="demo-images/06_image.png"><img src="demo-images/06_image.png" width="300"></a>
 
 # Conclusions:
-In just a few examples (and many more, including pie charts and advanced charts, are in the included Jupyter Notebook) you have learned to draw complex stats and charts for visualizing COVID-19 data
+In just a few examples (and many more, following the "templates" included in the Jupyter Notebook) you have learned to draw complex stats and charts for visualizing COVID-19 data
 
 ### Contacts:
 You can contact me here:
