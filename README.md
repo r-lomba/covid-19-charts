@@ -11,7 +11,7 @@ https://r-lomba.github.io/covid-19-charts/charts
 ### Project description:
 This project relies on COVID-19 data made publicly available by Johns Hopkins University CSSE in their Git Repository (see URL reference at the bottom of this page)
 
-The main file in this project is "covid-19.ipynb", a Jupyter Notebook in Python containing code that enables you to perform the following tasks:
+The main file in this project is __"covid-19.ipynb"__, a Jupyter Notebook in Python containing code that enables you to perform the following tasks:
 
 - Read the original data feed @JHU CSSE and populates the internal data engine with fresh COVID-19 data
 - Allows you to easily generate on-the-fly a variety of charts from the COVID-19 data collected at the previous step, aggregating in non-trivial ways, using just one single call to a function with a few parameters
