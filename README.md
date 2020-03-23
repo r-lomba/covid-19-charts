@@ -15,7 +15,7 @@ The main file in this project is "covid-19.ipynb", a Jupyter Notebook in Python 
 
 - Read the original data feed @JHU CSSE and populates the internal data engine with fresh COVID-19 data
 - Allows you to easily generate on-the-fly a variety of charts from the COVID-19 data collected at the previous step, aggregating in non-trivial ways, using just one single call to a function with a few parameters
-- Some of the charts you can generate are very peculiar, e.g. automatically fitting a cubic polynomial to data samples aggregated in creative ways and drawing the second derivative of that fitted polynomial. This is incredibly useful to catch changes in trends when they are not yet "visible at the naked eye", by looking at when and how the second derivative intersects the zero-baseline (upwards or downwards)
+- Some of the charts you can generate are very peculiar, e.g. automatically fitting a cubic polynomial to data samples aggregated in creative ways and drawing the second derivative of that fitted polynomial. This is incredibly useful to catch changes in trends when they are not yet "visible to the naked eye", by looking at when and how the second derivative intersects the zero-baseline (upwards or downwards)
 - Chart types currently available are: Line, Bar, Pie, Heatmap, Advanced
 - Save generated charts in PNG format inside a "charts" subdirectory, together with a simple auto-generated "index.html" page to directly show the charts in a browser
 - The last step allows you to easily publish the generated charts on e.g. a public webserver
