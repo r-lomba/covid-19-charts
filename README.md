@@ -207,6 +207,122 @@ And get the following result:
 
 <a href="demo-images/04_image.png"><img src="demo-images/04_image.png" width="300"></a>
 
+### Or, if you want to generate a pie chart:
+```python
+# LET'S PLOTS A COMPLETE CHART!
+# CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
+# THEY WILL BE PUT IN A DICTIONARY HOLDING THEM ALL
+# DICTIONARY KEYS ARE THE LEGEND ENTRIES THAT WILL BE PLOTTED
+dict_of_dataframes = {}
+dict_of_dataframes['Cumulative Confirmed Shares'] = confirmed_pie_DF
+
+# CHOOSE A LIST OF COUNTRIES FOR THIS PARTICULAR CHART
+# THE LIST CAN BE EXPLICIT OR CAN BE A REFERENCE TO PREVIOUSLY INITIALIZED LISTS
+list_of_countries = list_of_europe_confirmed_top5
+
+# CHOOSE A START DATE FOR THIS PARTICULAR CHART
+# FORMAT MUST MATCH 'YYYY-MM-DD' OR BE AN INTEGER FOR SYSDATE-X DAYS
+start_date = '2020-01-21'
+
+# CHOOSE A TITLE FOR THIS THIS PARTICULAR CHART
+title = 'TOP FIVE EUROPEAN COUNTRIES - Confirmed Affected CUMULATIVE TOTAL' + \
+        '\n' + \
+        'Relative Percentages over the Sum of JUST their CUMULATIVE Confirmed Cases' + \
+        '\n' + \
+        'Since 21 Jan 2020 - Linear Scale'
+
+# CHOOSE A SCALE TYPE FOR THIS THIS PARTICULAR CHART
+# VALID VALUES ARE 'plain' OR 'log'
+scale_type = 'plain'
+
+# CHOOSE WHETHER YOU WANT TO TOTALIZE DATA ACROSS MULTIPLE NATIONS IN THE SPECIFIED LIST
+# OR IF YOU WANT SEPARATE CHARTS FOR EACH NATION
+# VALID VALUES ARE 'Y' OR 'N'
+flg_totalize_countries = 'Y'
+
+# INDICATE HOW MANY RECORDS YOU WANT TO KEEP FROM THE TOP RANKED DOWN
+# USEFUL FOR HEATMAPS. PUT ZERO FOR ALL RECORDS. DEFAULT 10
+num_ranked = 0
+
+# INDICATE IF YOU WANT TO DRAW AN ADVANCED CHART E.G. WITH CUBIC POLYNOMIAL FITTING
+# SECOND DERIVATIVES, INFLECTION POINTS AND ROOT POINTS. DEFAULT 'N'
+flg_advanced_chart = 'N'
+
+# LET'S PLOT!
+plot_complete_chart(
+list_of_countries,
+start_date,
+title,
+scale_type,
+dict_of_dataframes,
+dict_of_charttypes,
+flg_totalize_countries,
+num_ranked,
+flg_advanced_chart)
+```
+
+And get the following result:
+
+<a href="demo-images/05_image.png"><img src="demo-images/05_image.png" width="300"></a>
+
+### Finally, you may want to generate an advanced chart with curve trend analysis based on second derivative of a fitted function to real world data samples:
+```python
+# LET'S PLOTS A COMPLETE CHART!
+# CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
+# THEY WILL BE PUT IN A DICTIONARY HOLDING THEM ALL
+# DICTIONARY KEYS ARE THE LEGEND ENTRIES THAT WILL BE PLOTTED
+dict_of_dataframes = {}
+dict_of_dataframes['Cumulative Confirmed'] = confirmed_DF
+
+# CHOOSE A LIST OF COUNTRIES FOR THIS PARTICULAR CHART
+# THE LIST CAN BE EXPLICIT OR CAN BE A REFERENCE TO PREVIOUSLY INITIALIZED LISTS
+list_of_countries = ['Italy']
+
+# CHOOSE A START DATE FOR THIS PARTICULAR CHART
+# FORMAT MUST MATCH 'YYYY-MM-DD' OR BE AN INTEGER FOR SYSDATE-X DAYS
+start_date = '2020-02-19'
+
+# CHOOSE A TITLE FOR THIS THIS PARTICULAR CHART
+title = 'ITALY ONLY - Confirmed Affected CUMULATIVE TOTAL' + \
+        '\n' + \
+        'Advanced chart' + \
+        '\n' + \
+        'Since 19 Feb 2020 - Linear Scale'
+
+# CHOOSE A SCALE TYPE FOR THIS THIS PARTICULAR CHART
+# VALID VALUES ARE 'plain' OR 'log'
+scale_type = 'plain'
+
+# CHOOSE WHETHER YOU WANT TO TOTALIZE DATA ACROSS MULTIPLE NATIONS IN THE SPECIFIED LIST
+# OR IF YOU WANT SEPARATE CHARTS FOR EACH NATION
+# VALID VALUES ARE 'Y' OR 'N'
+flg_totalize_countries = 'N'
+
+# INDICATE HOW MANY RECORDS YOU WANT TO KEEP FROM THE TOP RANKED DOWN
+# USEFUL FOR HEATMAPS. PUT ZERO FOR ALL RECORDS. DEFAULT 10
+num_ranked = 0
+
+# INDICATE IF YOU WANT TO DRAW AN ADVANCED CHART E.G. WITH CUBIC POLYNOMIAL FITTING
+# SECOND DERIVATIVES, INFLECTION POINTS AND ROOT POINTS. DEFAULT 'N'
+flg_advanced_chart = 'Y'
+
+# LET'S PLOT!
+plot_complete_chart(
+list_of_countries,
+start_date,
+title,
+scale_type,
+dict_of_dataframes,
+dict_of_charttypes,
+flg_totalize_countries,
+num_ranked,
+flg_advanced_chart)
+```
+
+And get the following result:
+
+<a href="demo-images/06_image.png"><img src="demo-images/06_image.png" width="300"></a>
+
 # Conclusions:
 In just a few examples (and many more, including pie charts and advanced charts, are in the included Jupyter Notebook) you have learned to draw complex stats and charts for visualizing COVID-19 data
 
