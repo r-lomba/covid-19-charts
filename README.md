@@ -34,7 +34,7 @@ Because you can easily present data starting from 8 aggregated Pandas Dataframe 
 - Cumulative Fatalities
 - Daily Fatalities (new cases)
 
-### For instance, you could decide to:
+### For instance, you could decide to draw multiple line charts for many Countries on the same picture:
 ```python
 # LET'S PLOTS A COMPLETE CHART!
 # CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
@@ -90,7 +90,7 @@ And get the following result:
 
 <a href="demo-images/02_image.png"><img src="demo-images/02_image.png" width="300"></a>
 
-### Or you could decide to:
+### Or you could decide to display a heatmap shownig how a certain parameter evolved in time in different Countries, while at the same time ranking them:
 ```python
 # LET'S PLOTS A COMPLETE CHART!
 # CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
@@ -148,7 +148,7 @@ And get the following result:
 
 <a href="demo-images/03_image.png"><img src="demo-images/03_image.png" width="300"></a>
 
-### What about directly comparing two bar charts:
+### What about directly comparing two bar charts on the same image:
 ```python
 # LET'S PLOTS A COMPLETE CHART!
 # CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
@@ -207,7 +207,7 @@ And get the following result:
 
 <a href="demo-images/04_image.png"><img src="demo-images/04_image.png" width="300"></a>
 
-### Or, if you want to generate a pie chart:
+### Or, if you want to generate a good old pie chart:
 ```python
 # LET'S PLOTS A COMPLETE CHART!
 # CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
@@ -265,7 +265,7 @@ And get the following result:
 
 <a href="demo-images/05_image.png"><img src="demo-images/05_image.png" width="300"></a>
 
-### You can also mix a line chart and a bar chart (or even multiple instances of each chart type) as follows:
+### You can also mix a line chart and a bar chart (even multiple instances of each chart type) as follows:
 ```python
 # LET'S PLOTS A COMPLETE CHART!
 # CHOOSE DATAFRAMES OF INTEREST FOR THIS PARTICULAR CHART
