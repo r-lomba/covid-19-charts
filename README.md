@@ -396,7 +396,7 @@ r.lombardelli@digitalgarage.it
 - Worldometer - World Counters and Stats: https://www.worldometers.info/coronavirus
 
 ### Terms of use:
-Please see the Terms of Use extensively described at the above link for reference
+Please see the Terms of Use extensively described at the above links for reference
 
 ### Disclaimer:
 This GitHub repo and its contents herein, including all data, mapping, and analysis is provided to the public strictly for educational and academic research purposes. It is hereby disclaimed any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
