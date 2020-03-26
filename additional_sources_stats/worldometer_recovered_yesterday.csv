@@ -1,4 +1,4 @@
-Country/Region,2020-03-24
+Country/Region,2020-03-25
 Afghanistan,2
 Albania,17
 Algeria,65
@@ -22,23 +22,24 @@ Bhutan,0
 Bolivia,0
 Bosnia and Herzegovina,2
 Brazil,2
+British Virgin Islands,0
 Brunei,2
 Bulgaria,4
-Burkina Faso,7
+Burkina Faso,10
 Cabo Verde,0
-Cambodia,4
+Cambodia,10
 Cameroon,2
-Canada,112
+Canada,185
 Central African Republic,0
 Chad,0
-Chile,17
+Chile,22
 China,73762
-Colombia,6
+Colombia,8
 Congo (Brazzaville),0
 Congo (Kinshasa),0
 Costa Rica,2
-Cote d'Ivoire,2
-Croatia,16
+Cote d'Ivoire,3
+Croatia,22
 Cruise Ship,587
 Cuba,1
 Cyprus,3
@@ -48,7 +49,7 @@ Djibouti,0
 Dominica,0
 Dominican Republic,3
 Ecuador,3
-Egypt,80
+Egypt,95
 El Salvador,0
 Equatorial Guinea,0
 Eritrea,0
@@ -57,40 +58,41 @@ Eswatini,0
 Ethiopia,0
 Fiji,0
 Finland,10
-France,3288
+France,3907
 Gabon,0
 "Gambia, The",0
 Georgia,10
-Germany,3532
+Germany,3547
 Ghana,0
-Greece,29
+Greece,36
 Grenada,0
-Guatemala,0
+Guatemala,4
 Guinea,0
+Guinea-Bissau,0
 Guyana,0
 Haiti,0
 Holy See,0
 Honduras,0
 Hungary,21
-Iceland,51
-India,40
+Iceland,56
+India,43
 Indonesia,31
 Iran,9625
-Iraq,75
+Iraq,103
 Ireland,5
 Israel,58
-Italy,8326
+Italy,9362
 Jamaica,2
-Japan,285
+Japan,310
 Jordan,1
 Kazakhstan,0
-Kenya,0
+Kenya,1
 "Korea, South",3730
 Kuwait,43
 Kyrgyzstan,0
 Laos,0
 Latvia,1
-Lebanon,8
+Lebanon,20
 Liberia,0
 Libya,0
 Liechtenstein,0
@@ -98,7 +100,7 @@ Lithuania,1
 Luxembourg,6
 Madagascar,0
 Malaysia,199
-Maldives,5
+Maldives,8
 Mali,0
 Malta,2
 Mauritania,0
@@ -108,13 +110,13 @@ Moldova,2
 Monaco,1
 Mongolia,0
 Montenegro,0
-Morocco,6
+Morocco,7
 Mozambique,0
 Myanmar,0
 Namibia,2
 Nepal,1
-Netherlands,3
-New Zealand,22
+Netherlands,6
+New Zealand,27
 Nicaragua,0
 Niger,0
 Nigeria,2
@@ -123,25 +125,26 @@ Norway,6
 Oman,17
 Pakistan,21
 Palestine,16
-Panama,1
+Panama,2
 Papua New Guinea,0
 Paraguay,0
 Peru,1
 Philippines,26
-Poland,1
+Poland,7
 Portugal,22
 Qatar,41
 Romania,86
 Russia,29
 Rwanda,0
+Saint Kitts and Nevis,0
 Saint Lucia,0
 Saint Vincent and the Grenadines,0
 San Marino,4
-Saudi Arabia,28
+Saudi Arabia,29
 Senegal,9
 Serbia,15
 Seychelles,0
-Singapore,156
+Singapore,160
 Slovakia,7
 Slovenia,10
 Somalia,0
@@ -159,12 +162,12 @@ Thailand,70
 Timor-Leste,0
 Togo,1
 Trinidad and Tobago,0
-Tunisia,1
-Turkey,0
-US,379
+Tunisia,2
+Turkey,26
+US,394
 Uganda,0
 Ukraine,1
-United Arab Emirates,45
+United Arab Emirates,52
 United Kingdom,140
 Uruguay,0
 Uzbekistan,0
