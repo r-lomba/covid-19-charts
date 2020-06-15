@@ -11,8 +11,6 @@ https://r-lomba.github.io/covid-19-charts/charts
 ### Project description:
 This project relies on COVID-19 data made publicly available by "Johns Hopkins University CSSE" in their Git Repository (see URL reference at the bottom of this page).
 
-Starting with March, 24th 2020 "Johns Hopkins University CSSE" discontinued the maintenance of the stream of data for Recoveries, due to the complexity of keeping up with many official sources often in disagreement between them. Because of this, regarding Recoveries stats, we switched our data source to "worldometers.info", a major provider of different quantity counters of global stats (see URL reference at the bottom of this page).
-
 The main file in this project is __"covid-19.ipynb"__, a Jupyter Notebook in Python containing code that enables you to perform the following tasks:
 
 - Read the original data feed @JHU CSSE and populates the internal data engine with fresh COVID-19 data
@@ -393,7 +391,6 @@ r.lombardelli@digitalgarage.it
 
 ### Data Sources References:
 - 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE: https://github.com/CSSEGISandData/COVID-19
-- Worldometer - World Counters and Stats: https://www.worldometers.info/coronavirus
 
 ### Terms of use:
 Please see the Terms of Use extensively described at the above links for reference
